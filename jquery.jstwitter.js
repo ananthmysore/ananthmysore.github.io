@@ -7,7 +7,7 @@ $(function() {
 	    // for multiple hashtags, you can separate the hashtag with OR, eg:
 	    // hash: '%23jquery OR %23css'			    
 	    // hash: '#DockerSelfie',
-	    search:'@DockerSelfie', //leave this blank if you want to show user's tweet
+	    search:'DockerSelfie', //leave this blank if you want to show user's tweet
 	    user: 'ananth_j', //username
 	    numTweets: 30, //number of tweets
 	    appendTo: '#jstwitter',
