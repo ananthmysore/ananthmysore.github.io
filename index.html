@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Easiest Way to Retrieve Twitter Timeline and Hashtags (Twitter OAuth API 1.1)</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	
+<div id="info">
+	<div class="info-wrapper">
+		<a href="http://www.queness.com/post/14004/easiest-way-to-retrieve-twitter-timeline-and-hashtags-twitter-oauth-api-11"><b>Easiest Way to Retrieve Twitter Timeline and Hashtags (Twitter OAuth API 1.1)</b></a>
+		<p>Twitter terminated its old API, and most of my tutorials stopped working! So, here is the follow up to show you how easy is it to retrieve user timeline and also hashtag. Of course, I don't just stop there. I integrated my previously written script and modified it to work with Grid-A-Licious plugin to create something that's similar with Pinterest. <a href="http://www.queness.com/post/14004/easiest-way-to-retrieve-twitter-timeline-and-hashtags-twitter-oauth-api-11">Read Tutorial</a></p>
+	</div>
+</div>	
+
+<div id="jstwitter"></div>	
+
+</body>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7781887-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="jquery.gridalicious.min.js"></script>
+<script type="text/javascript" src="jquery.jstwitter.js"></script>
+<script type="text/javascript">
+$(function () {
+    // start jqtweet!
+    JQTWEET.loadTweets();
+});		
+</script>
+	
+</html>
