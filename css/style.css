@@ -39,7 +39,7 @@ Modules - reusable parts of our design
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
-  max-width: 768px;
+  max-width: 1068px;
   margin: 0 auto;
 }
 .cd-container::after {
@@ -339,3 +339,31 @@ Main components
 .payments {
   font-size: 1.5em; 
 }
+/*To get the collapsed items in same line*/
+.collapse.in {
+  display: inline;
+} 
+
+/*Transbox*/
+
+.spon p {
+  font-size: 15px;
+  margin:auto auto;
+  text-align: justify;
+}
+.spo{
+  border-bottom:2px solid #bcbcbc;
+  color: #3F1237;
+  padding:1.22em;
+  width:35%;
+  margin:auto auto;
+}
+#sponsors_image {
+  padding-top:2em;
+  width:90%;
+  margin:auto auto;
+}
+#space {
+  padding-top:2em;
+}
+
