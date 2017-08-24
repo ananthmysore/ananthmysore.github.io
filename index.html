@@ -1,758 +1,398 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Do Bandar, luxurious natural body care</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Site Description Here">
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
-    <body class=" ">
-        <a id="start"></a>
-        <!-- <section class="bar bar-3 bar--sm bg--secondary">
-            <div class="container">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/db_logo.png">
+    <title>Do Bandar, luxurious natural body care</title>
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,500,600,700' rel='stylesheet' type='text/css'>
+    <!-- Fonts for icons -->
+    <link href="css/ionicons.min.css" rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Styles CSS-->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Animate CSS-->
+    <link href="css/aos.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+
+<body class="scheme_color_norway">
+    <div id="main-content" class="m-scene">
+        <!-- Header -->
+        <header class="full_wrapper">
+            <div class="logo">
+                <h1><a href="index.html"><img src='images/db_logo.png' alt='Logo'/></a></h1>
             </div>
-            end of container
-        </section> -->
-        <!--end bar-->
-        <div class="nav-container ">
-            <div class="bar bar--sm visible-xs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="index.html">
-                                <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
-                                <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
-                            </a>
-                        </div>
-                        <div class="col-xs-9 col-sm-10 text-right">
-                            <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
-                                <i class="icon icon--sm stack-interface stack-menu"></i>
-                            </a>
-                        </div>
+            <nav class="main-nav">
+                <div class="menu-content menu-container">
+                    <div class="menu-content-wrap menu">
+                        <ul id="nav" class="menu-nav align-right">
+                            <li><a href="index.html">Home</a>
+                            </li>
+                            <li><a href="about-us.html">Products</a>
+                                <ul>
+                                  <li><a href="#">Face</a></li>
+                                  <li><a href="#">Feet</a></li>
+                                  <li><a href="#">Body</a></li>
+                                  </ul>
+                                </li>
+                            <li><a href="#">Press</a>
+                            </li>
+                            <li><a href="#">Contact us</a>
+                            </li>
+                            <li><a href="#">Blog</a>
+                            </li>
+                            <li><a href="#">Store Locations</a>
+                            </li>
+                        </ul>
                     </div>
-                    <!--end of row-->
                 </div>
-                <!--end of container-->
-            </div>
-            <!--end bar-->
-            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute bar--transparent" data-scroll-class='100vh:pos-fixed'>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-2 col-sm-2 hidden-xs">
-                            <div class="bar__module">
-                                <a href="index.html">
-                                    <img class="logo-dark" alt="logo" src="img/db_logo_white.png" />
-                                    <img class="logo-light" alt="logo" src="img/db_logo_white.png" />
-                                </a>
-                            </div>
-                            <!--end module-->
-                        </div>
-                        <div class="col-md-10 col-sm-12 text-right text-left-xs text-left-sm" data-paging="true">
-                            <div class="bar__module">
-                              <ul class="menu-horizontal text-left">
-                                  <li class="">
-                                      <span class="dropdown__trigger">Home</span>
-                                  </li>
-                                  <li class="dropdown">
-                                      <span class="dropdown__trigger">Products</span>
-                                      <div class="dropdown__container">
-                                          <div class="container">
-                                              <div class="row">
-                                                  <div class="dropdown__content col-md-2 col-sm-4">
-                                                      <ul class="menu-vertical">
-                                                          <li class="dropdown">
-                                                              <span class="dropdown__trigger">Body</span>
-                                                              <div class="dropdown__container">
-                                                                  <div class="container">
-                                                                      <div class="row">
-                                                                          <div class="dropdown__content col-md-2">
-                                                                              <ul class="menu-vertical">
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          About Company
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          About Team
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          About Me
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          About History
-                                                                                      </a>
-                                                                                  </li>
-                                                                              </ul>
-                                                                          </div>
-                                                                          <!--end dropdown content-->
-                                                                      </div>
-                                                                      <!--end row-->
-                                                                  </div>
-                                                              </div>
-                                                              <!--end dropdown container-->
-                                                          </li>
-                                                          <li class="dropdown">
-                                                              <span class="dropdown__trigger">Face</span>
-                                                              <div class="dropdown__container">
-                                                                  <div class="container">
-                                                                      <div class="row">
-                                                                          <div class="dropdown__content col-md-2 col-sm-4">
-                                                                              <ul class="menu-vertical">
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Careers Listing
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Career Single
-                                                                                      </a>
-                                                                                  </li>
-                                                                              </ul>
-                                                                          </div>
-                                                                          <!--end dropdown content-->
-                                                                      </div>
-                                                                      <!--end row-->
-                                                                  </div>
-                                                              </div>
-                                                              <!--end dropdown container-->
-                                                          </li>
-                                                          <li class="dropdown">
-                                                              <span class="dropdown__trigger">Feet</span>
-                                                              <div class="dropdown__container">
-                                                                  <div class="container">
-                                                                      <div class="row">
-                                                                          <div class="dropdown__content col-md-2 col-sm-4">
-                                                                              <ul class="menu-vertical">
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Contact Map 1
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Contact Map 2
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Contact Map 3
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Contact Map 4
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Contact Planner 1
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Contact Planner 2
-                                                                                      </a>
-                                                                                  </li>
-                                                                              </ul>
-                                                                          </div>
-                                                                          <!--end dropdown content-->
-                                                                      </div>
-                                                                      <!--end row-->
-                                                                  </div>
-                                                              </div>
-                                                              <!--end dropdown container-->
-                                                          </li>
-                                                          <li class="dropdown">
-                                                              <span class="dropdown__trigger">Limited Edition</span>
-                                                              <div class="dropdown__container">
-                                                                  <div class="container">
-                                                                      <div class="row">
-                                                                          <div class="dropdown__content col-md-2 col-sm-4">
-                                                                              <ul class="menu-vertical">
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Pricing Plans 1
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Pricing Plans 2
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Pricing Plans 3
-                                                                                      </a>
-                                                                                  </li>
-                                                                              </ul>
-                                                                          </div>
-                                                                          <!--end dropdown content-->
-                                                                      </div>
-                                                                      <!--end row-->
-                                                                  </div>
-                                                              </div>
-                                                              <!--end dropdown container-->
-                                                          </li>
-                                                          <li class="dropdown">
-                                                              <span class="dropdown__trigger">Gifts</span>
-                                                              <div class="dropdown__container">
-                                                                  <div class="container">
-                                                                      <div class="row">
-                                                                          <div class="dropdown__content col-md-2 col-sm-4">
-                                                                              <ul class="menu-vertical">
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Services 1
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Services 2
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Services 3
-                                                                                      </a>
-                                                                                  </li>
-                                                                              </ul>
-                                                                          </div>
-                                                                          <!--end dropdown content-->
-                                                                      </div>
-                                                                      <!--end row-->
-                                                                  </div>
-                                                              </div>
-                                                              <!--end dropdown container-->
-                                                          </li>
-                                                          <li class="dropdown separate">
-                                                              <span class="dropdown__trigger">Pets</span>
-                                                              <div class="dropdown__container">
-                                                                  <div class="container">
-                                                                      <div class="row">
-                                                                          <div class="dropdown__content col-md-2 col-sm-4">
-                                                                              <ul class="menu-vertical">
-                                                                                  <li>
-                                                                                      <a href="#"> Settings
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Login Simple
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Login Social
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Create Simple
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Create Social
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">Account
-                                                                                      </a>
-                                                                                  </li>
-                                                                              </ul>
-                                                                          </div>
-                                                                          <!--end dropdown content-->
-                                                                      </div>
-                                                                      <!--end row-->
-                                                                  </div>
-                                                              </div>
-                                                              <!--end dropdown container-->
-                                                          </li>
-                                                          <li class="dropdown">
-                                                              <span class="dropdown__trigger">Discount Sale</span>
-                                                              <div class="dropdown__container">
-                                                                  <div class="container">
-                                                                      <div class="row">
-                                                                          <div class="dropdown__content col-md-2 col-sm-4">
-                                                                              <ul class="menu-vertical">
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Conversation
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Error 404
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Error 500
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Maintnence Mode
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Onboarding
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Search Results
-                                                                                      </a>
-                                                                                  </li>
-                                                                              </ul>
-                                                                          </div>
-                                                                          <!--end dropdown content-->
-                                                                      </div>
-                                                                      <!--end row-->
-                                                                  </div>
-                                                              </div>
-                                                              <!--end dropdown container-->
-                                                          </li>
-                                                      </ul>
-                                                  </div>
-                                                  <!--end dropdown content-->
-                                              </div>
-                                              <!--end row-->
-                                          </div>
-                                      </div>
-                                      <!--end dropdown container-->
-                                  </li>
-                                  <li class="dropdown">
-                                      <span class="dropdown__trigger">Blog</span>
-                                      <div class="dropdown__container">
-                                          <div class="container">
-                                              <div class="row">
-                                                  <div class="dropdown__content col-md-2 col-sm-4">
-                                                      <ul class="menu-vertical">
-                                                          <li class="dropdown">
-                                                              <span class="dropdown__trigger">Articles</span>
-                                                              <div class="dropdown__container">
-                                                                  <div class="container">
-                                                                      <div class="row">
-                                                                          <div class="dropdown__content col-md-2 col-sm-4">
-                                                                              <ul class="menu-vertical">
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Simple List
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Minimal List
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Magazine
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Cards
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Cards Sidebar
-                                                                                      </a>
-                                                                                  </li>
-                                                                              </ul>
-                                                                          </div>
-                                                                          <!--end dropdown content-->
-                                                                      </div>
-                                                                      <!--end row-->
-                                                                  </div>
-                                                              </div>
-                                                              <!--end dropdown container-->
-                                                          </li>
-                                                          <li class="dropdown">
-                                                              <span class="dropdown__trigger">Post Single</span>
-                                                              <div class="dropdown__container">
-                                                                  <div class="container">
-                                                                      <div class="row">
-                                                                          <div class="dropdown__content col-md-2 col-sm-4">
-                                                                              <ul class="menu-vertical">
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Standard Post
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Audio Post
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Image Post
-                                                                                      </a>
-                                                                                  </li>
-                                                                                  <li>
-                                                                                      <a href="#">
-                                                                                          Video Post
-                                                                                      </a>
-                                                                                  </li>
-                                                                              </ul>
-                                                                          </div>
-                                                                          <!--end dropdown content-->
-                                                                      </div>
-                                                                      <!--end row-->
-                                                                  </div>
-                                                              </div>
-                                                              <!--end dropdown container-->
-                                                          </li>
-                                                      </ul>
-                                                  </div>
-                                                  <!--end dropdown content-->
-                                              </div>
-                                              <!--end row-->
-                                          </div>
-                                      </div>
-                                      <!--end dropdown container-->
-                                  </li>
-                                  <li>
-                                      <a href="#" data-notification-link="side-menu">
-                                          <span class="dropdown__trigger">Press</span>
-                                      </a>
-                                  </li>
-                                  <li>
-                                      <a href="#" data-notification-link="side-menu">
-                                          <span class="dropdown__trigger">Contact</span>
-                                      </a>
-                                  </li>
-                                  <li>
-                                      <a href="#" data-notification-link="side-menu">
-                                          <span class="dropdown__trigger">Store Locations</span>
-                                      </a>
-                                  </li>
-                              </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
             </nav>
-            <!--end bar-->
-        </div>
-        <div class="main-container">
-          <section class="cover height-70 imagebg text-center slider slider--ken-burns"  data-paging="true">
-              <ul class="slides">
-                  <li class="imagebg" data-overlay="5">
-                      <div class="background-image-holder background--top">
-                          <img alt="background" src="img/landing-13.jpg" />
-                      </div>
-                      <div class="container pos-vertical-center">
-                          <div class="row">
-                              <div class="col-sm-12">
-                                <h1>
-                                      DO BANDAR
-                              </h1>
-                              <h2>Luxurious Natural Body Care <b>100% Free</b> from synthetics, synthetic fragrances</h2>
-                                  <a class="btn btn--primary type--uppercase" href="#">
-                                   <span class="btn__text">
-                                      Products
-                                      </span>
-                                  </a>
-                              </div>
-                          </div>
-                          <!--end of row-->
-                      </div>
-                      <!--end of container-->
-                  </li>
-                  <li class="imagebg" data-overlay="5">
-                      <div class="background-image-holder">
-                          <img alt="background" src="img/landing-13a.jpg" />
-                      </div>
-                      <div class="container pos-vertical-center">
-                          <div class="row">
-                              <div class="col-sm-12">
-                                  <h1>
-                                        DO BANDAR
-                                </h1>
-                                <h2>Luxurious Natural Body Care <b>100% Free</b> from synthetics, synthetic fragrances</h2>
-                                  <a class="btn btn--primary type--uppercase" href="#">
-                                      <span class="btn__text">
-                                          Products
-                                      </span>
-                                  </a>
-                              </div>
-                          </div>
-                          <!--end of row-->
-                      </div>
-                      <!--end of container-->
-                  </li>
-              </ul>
-          </section>
-          <section class="text-center" data-overlay='0'>
-              <!-- <div class="background-image-holder">
-                  <img alt="background" src="img/hero-1.jpg" />
-              </div> -->
-              <div class="container">
-                <div class="row feature">
-                    <div class="col-sm-10 col-md-8">
-                        <img src="img/monkeys.png" alt="">
-                        <h1>DO BANDAR</h1>
-                        <p class="lead">
-                            Luxurious Natural Body Care. 100% Free from synthetics, synthetic fragrences, parabens, SLS, SLES, Fillers and rubbish.
-                        </p>
+        </header>
+        <!-- End Header -->
+        <div class="page-container scene-main scene-main--fadein">
+            <!-- Page Loader -->
+            <div class="page_loading">
+                <div class="spinner"></div>
+            </div>
+            <!-- End Page Loader -->
+            <div id="second_carousel" class="owl-carousel owl-theme thirdhalf_height simple_slider">
+                <div class="item">
+                    <img class="img_as_bg" src="images/home/30.jpg" alt="The Last of us">
+                    <div class="slide_content light_color ">
+                        <h1 class="big_title title_bold mb_15">DO BANDAR</h1>
+                        <p class="big_description">Luxurious Natural Body Care <b>100% Free</b> from synthetics, synthetic fragrances.</p>
                     </div>
                 </div>
-                  <div class="row">
-                      <div class="col-sm-3">
-                          <a href="#" class="block">
-                              <div class="feature boxed boxed--border border--round">
-                                  <i class="icon--lg icon-Time-Clock"></i>
-                                  <span class="h5 color--primary">New Arrivals</span>
-                              </div>
-                          </a>
-                      </div>
-                      <div class="col-sm-3">
-                          <a href="#" class="block">
-                              <div class="feature boxed boxed--border border--round">
-                                  <i class="icon--lg icon-Angel"></i>
-                                  <span class="h5 color--primary">Limited Edition</span>
-                              </div>
-                          </a>
-                      </div>
-                      <div class="col-sm-3">
-                          <a href="#" class="block">
-                              <div class="feature boxed boxed--border border--round">
-                                  <i class="icon--lg icon-Present"></i>
-                                  <span class="h5 color--primary">Gifting</span>
-                              </div>
-                          </a>
-                      </div>
-                      <div class="col-sm-3">
-                          <a href="#" class="block">
-                              <div class="feature boxed boxed--border border--round">
-                                  <i class="icon--lg icon-Cat"></i>
-                                  <span class="h5 color--primary">Pets</span>
-                              </div>
-                          </a>
-                      </div>
-                  </div>
-                  <!--end of row-->
-              </div>
-              <!--end of container-->
-          </section>
-
-
-          <div class="tabs-container text-center" data-content-align="left">
-                      <!-- <div class="tab__content"> -->
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <h3 class="type--uppercase">Products
-                                </h6>
+                <div class="item">
+                    <img class="img_as_bg" src="images/home/31.jpg" alt="The Last of us">
+                    <div class="slide_content light_color ">
+                      <h1 class="big_title title_bold mb_15">DO BANDAR</h1>
+                      <p class="big_description">Luxurious Natural Body Care <b>100% Free</b> from synthetics, synthetic fragrances.</p>
+                    </div>
+                </div>
+                <div class="item ">
+                    <img class="img_as_bg" src="images/home/32.jpg" alt="Mirror Edge">
+                    <div class="slide_content light_color ">
+                      <h1 class="big_title title_bold mb_15">DO BANDAR</h1>
+                      <p class="big_description">Luxurious Natural Body Care <b>100% Free</b> from synthetics, synthetic fragrances.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div class="special_title side_line_title mt_100 mb_80">
+                            <h2>FEATURED PRODUCTS</h2>
+                            <p>Quisque congue accumsan ante id condimentum. Aliquam lorem nisl, bibendum et sollicitudin ut, viverra vitae ligula. In hac habitasse platea dictumst. Quisque in tincidunt augue. Mauris tempus pulvinar feugiat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mb_60">
+                <div class="row">
+                    <ul class="products">
+                        <li data-aos="zoom-in-right">
+                            <a href="#" class="product_link">
+                                <img src="images/home/2.jpg" />
+                                <h3>Lavender Scrub</h3>
+                                <span class="price">&#x20B9;499.00</span>
+                                <span class="rating">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                </span>
+                            </a>
+                            <a href="#" class="add_to_cart_button button">Buy</a>
+                        </li>
+                        <li data-aos="zoom-in-right">
+                            <a href="#" class="product_link">
+                                <img src="images/home/3.jpg" />
+                                <h3>Soap Dish</h3>
+                                <span class="price">&#x20B9;499.00</span>
+                                <span class="rating">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                </span>
+                            </a>
+                            <a href="#" class="add_to_cart_button button">Buy</a>
+                        </li>
+                        <li data-aos="zoom-in-right">
+                            <a href="#" class="product_link">
+                                <img src="images/home/4.jpg" />
+                                <h3>Wildflower Honey</h3>
+                                <span class="price">&#x20B9;499.00</span>
+                                <span class="rating">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                </span>
+                            </a>
+                            <a href="#" class="add_to_cart_button button">Buy</a>
+                        </li>
+                        <li data-aos="zoom-in-right">
+                            <a href="#" class="product_link">
+                                <img src="images/home/5.jpg" />
+                                <h3>LemonGrass Scrub</h3>
+                                <span class="price">&#x20B9;499.00</span>
+                                <span class="rating">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                </span>
+                            </a>
+                            <a href="#" class="add_to_cart_button button">Buy</a>
+                        </li>
+                        <li data-aos="zoom-in-right">
+                            <a href="#" class="product_link">
+                                <img src="images/home/6.jpg" />
+                                <h3>No-No tables</h3>
+                                <span class="price">&#x20B9;499.00</span>
+                                <span class="rating">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                </span>
+                            </a>
+                            <a href="#" class="add_to_cart_button button">Buy</a>
+                        </li>
+                        <li data-aos="zoom-in-right">
+                            <a href="#" class="product_link">
+                                <img src="images/home/7.jpg" />
+                                <h3>Bolt stool</h3>
+                                <span class="price">&#x20B9;499.00</span>
+                                <span class="rating">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                </span>
+                            </a>
+                            <a href="#" class="add_to_cart_button button">Buy</a>
+                        </li>
+                        <li data-aos="zoom-in-right">
+                            <a href="#" class="product_link">
+                                <img src="images/home/8.jpg" />
+                                <h3>Lucetta Bike Light</h3>
+                                <span class="price">&#x20B9;499.00</span>
+                                <span class="rating">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                </span>
+                            </a>
+                            <a href="#" class="add_to_cart_button button">Buy</a>
+                        </li>
+                        <li data-aos="zoom-in-right">
+                            <a href="#" class="product_link">
+                                <img src="images/home/9.jpg" />
+                                <h3>Mango lounge</h3>
+                                <span class="price">&#x20B9;499.00</span>
+                                <span class="rating">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                </span>
+                            </a>
+                            <a href="#" class="add_to_cart_button button">Buy</a>
+                        </li>
+                        <li data-aos="zoom-in-right">
+                            <a href="#" class="product_link">
+                                <img src="images/home/10.jpg" />
+                                <h3>Elements lamp series </h3>
+                                <span class="price">&#x20B9;499.00</span>
+                                <span class="rating">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                <span class="star star-rated"></span>
+                                </span>
+                            </a>
+                            <a href="#" class="add_to_cart_button button">Buy</a>
+                        </li>
+                    </ul>
+                    <div class="align-center mt_10" >
+                        <a href="#" class="button button--itzel button--text-thick"><i class="button__icon ion-arrow-down-a"></i><span>LOAD MORE PRODUCT</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box_layout_wrapper">
+            <div class="home_9_service_cont">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="service_box service_box_align_left" data-aos="fade-up">
+                            <div class="service_icon"><i class="ion-ios-bolt" aria-hidden="true"></i></div>
+                            <div class="service_info">
+                                <h3>Natural</h3>
+                                <p>Phasellus varius cursus turpis dign issim mollis. Vestibulum hendrerit arcu nunc, sit amet dignissim dui mollis maximus. Mauris tempus pulvinar feugiat.</p><a href="#" class="read_more">Read More</a>
                             </div>
                         </div>
-                          <section class="bg--secondary">
-                              <div class="container">
-                                  <div class="row">
-                                    <div class="masonry__item col-sm-4">
-                                        <div class="product  boxed boxed--border border--round">
-                                            <!-- <span class="label">Sale</span> -->
-                                            <a href="#">
-                                                <img alt="Image" src="img/products/prod1.jpg" />
-                                            </a>
-                                            <a class="text-left block" href="#">
-                                                <div>
-                                                    <h5>LemonGrass Scrub</h5>
-                                                    <span> Lemongrass &amp; ginger</span>
-                                                </div>
-                                                <div>
-                                                    <span class="h4 inline-block type--strikethrough">&#x20B9;899</span>
-                                                    <span class="h4 inline-block">&#x20B9;799</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!--end item-->
-                                    <div class="masonry__item boxed col-sm-4">
-                                        <div class="product boxed--border border--round">
-                                            <a href="#">
-                                                <img alt="Image" src="img/products/prod2.jpg" />
-                                            </a>
-                                            <a class="text-left block" href="#">
-                                                <div>
-                                                    <h5>Soap Dish</h5>
-                                                    <span> Neem Wood</span>
-                                                </div>
-                                                <div>
-                                                    <span class="h4 inline-block">&#x20B9;149</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!--end item-->
-                                    <div class="masonry__item col-sm-4">
-                                        <div class="product boxed boxed--border border--round">
-                                            <a href="#">
-                                                <img alt="Image" src="img/products/prod3.jpg" />
-                                            </a>
-                                            <a class="text-left block" href="#">
-                                                <div>
-                                                    <h5>Lavender Scrub</h5>
-                                                    <span> Sugar Scrub</span>
-                                                </div>
-                                                <div>
-                                                    <span class="h4 inline-block">&#x20B9;400</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!--end item-->
-                                  </div>
-                                  <!--end of row-->
-                              </div>
-                              <!--end of container-->
-                          </section>
-                      <!-- </div> -->
-                  </div>
-
-
-
-            <section class="switchable feature-large unpad--bottom border--bottom">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service_box service_box_align_left" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service_icon"><i class="ion-ios-loop-strong" aria-hidden="true"></i></div>
+                            <div class="service_info">
+                                <h3>Healthy</h3>
+                                <p>Phasellus varius cursus turpis dign issim mollis. Vestibulum hendrerit arcu nunc, sit amet dignissim dui mollis maximus. Mauris tempus pulvinar feugiat.</p><a href="#" class="read_more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service_box service_box_align_left" data-aos="fade-up" data-aos-delay="400">
+                            <div class="service_icon"><i class="ion-android-bicycle" aria-hidden="true"></i></div>
+                            <div class="service_info">
+                                <h3>Genuine</h3>
+                                <p>Phasellus varius cursus turpis dign issim mollis. Vestibulum hendrerit arcu nunc, sit amet dignissim dui mollis maximus. Mauris tempus pulvinar feugiat.</p><a href="#" class="read_more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home9_clients_carousel_cont">
+            <div class="container">
+                <div class="row">
+                    <ul id="loop_carousel" class="owl-carousel client-logo-list">
+                        <li>
+                            <a href="http://www.energeticthemes.com/"> <img src="images/clients/light/1.png" alt="Energetic Themes"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.energeticthemes.com/"> <img src="images/clients/light/2.png" alt="Energetic Themes"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.energeticthemes.com/"> <img src="images/clients/light/3.png" alt="Energetic Themes"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.energeticthemes.com/"> <img src="images/clients/light/4.png" alt="Energetic Themes"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.energeticthemes.com/"> <img src="images/clients/light/5.png" alt="Energetic Themes"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.energeticthemes.com/"> <img src="images/clients/light/8.png" alt="Energetic Themes"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.energeticthemes.com/"> <img src="images/clients/light/7.png" alt="Energetic Themes"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.energeticthemes.com/"> <img src="images/clients/light/9.png" alt="Energetic Themes"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="before_footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
-                            <div class="switchable__text">
-                                <h2>A more concious you … that’s what we’re about</h2>
-                                <p class="lead">
-                                  Who says modern living is a breeze? We most definitely live in stressful times. It is times such as these that we need to take the time to calm down, center ourselves, and in the words of Master Shifu, find some ‘inner peace’.
-
-
+                        <div class="col-sm-4">
+                            <h3 class="before_footer_title">About us</h3>
+                            <p>Quisque congue accumsan antem id condimentum aliquam lorem.</p>
+                            <div>
+                                <address> <strong> 10 Old Street Malleshwaram, <br> # 404 SevaSadan , Bengaluru 560056 </strong></address>
+                                <p><strong>+91 0321 28156058</strong>
+                                    <br>
+                                    <strong>info@dobandar.com</strong></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="widget_nav_menu">
+                                <h3 class="before_footer_title">Product</h3>
+                                <ul class="">
+                                    <li><a href="#">How It Works</a></li>
+                                    <li><a href="#">Product Features</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Integrate &amp; Enterprise</a></li>
+                                    <li><a href="#">Affileate Program</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="col-sm-2">
+                            <div class="widget_nav_menu">
+                                <h3 class="before_footer_title">Support</h3>
+                                <ul class="">
+                                    <li><a href="#">Documintation</a></li>
+                                    <li><a href="#">Delevopers Api</a></li>
+                                    <li><a href="#">Learn About Product</a></li>
+                                    <li><a href="#">Concierge service</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div> -->
+                        <div class="col-sm-offset-2 col-sm-4">
+                            <h3 class="before_footer_title">News update</h3>
+                            <div class="news_feed">
+                                <input type="text" name="name" id="name" required="" placeholder="Enter Name">
+                                <input type="submit" value="Submit" class="send_button" name="email-send">
+                            </div>
+                            <p>Quisque congue accumsan ante id condimentum. Aliquam lorem nisl, bibendum et sollicitudin ut, viverra vitae ligula.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_container">
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p>
+                                    Copyright 2017 © DOBANDAR
                                 </p>
-                                <a href="#">Learn More &raquo;</a>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="footer_nav text-right">
+                                    <li>
+                                        <a href="#" target="blank" title="Facebook">Facebook</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="blank" title=" Twitter">Twitter</a></li>
+                                    <li><a href="#" target="blank " title="Dribbble ">Dribbble</a></li>
+                                    <li><a href="#" target="blank " class="color youtube " title="YouTube ">YouTube</a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-xs-12 text-center">
-                            <img alt="Image" src="img/about1.jpg" />
-                        </div>
                     </div>
-                    <!--end of row-->
                 </div>
-                <!--end of container-->
-            </section>
-            <section class="bg--primary unpad cta cta-2">
-                <a href="#">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12 text-center">
-                                <h2>Retail Partners</h2>
-                            </div>
-                        </div>
-                        <!--end of row-->
-                    </div>
-                    <!--end of container-->
-                </a>
-            </section>
-            <footer class="text-center-xs space--xs bg--dark ">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-7">
-                            <ul class="list-inline">
-                                <li>
-                                    <a href="#">
-                                        <span class="h6 type--uppercase">About</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="h6 type--uppercase">Careers</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="h6 type--uppercase">Support</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-5 text-right text-center-xs">
-                            <ul class="social-list list-inline list--hover">
-                                <li>
-                                    <a href="#">
-                                        <i class="socicon socicon-google icon icon--xs"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="socicon socicon-twitter icon icon--xs"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="socicon socicon-facebook icon icon--xs"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="socicon socicon-instagram icon icon--xs"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                    <div class="row">
-                        <div class="col-sm-7">
-                            <span class="type--fine-print">&copy;
-                                <span class="update-year"></span> DOBANDAR.</span>
-                            <a class="type--fine-print" href="#">Privacy Policy</a>
-                            <a class="type--fine-print" href="#">Legal</a>
-                        </div>
-                        <div class="col-sm-5 text-right text-center-xs">
-                            <a class="type--fine-print" href="#">support@dobandar.in</a>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </footer>
-        </div>
-        <!--<div class="loader"></div>-->
-        <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-            <i class="stack-interface stack-up-open-big"></i>
-        </a>
-        <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/flickity.min.js"></script>
-        <script src="js/easypiechart.min.js"></script>
-        <script src="js/parallax.js"></script>
-        <script src="js/typed.min.js"></script>
-        <script src="js/datepicker.js"></script>
-        <script src="js/isotope.min.js"></script>
-        <script src="js/ytplayer.min.js"></script>
-        <script src="js/lightbox.min.js"></script>
-        <script src="js/granim.min.js"></script>
-        <script src="js/jquery.steps.min.js"></script>
-        <script src="js/countdown.min.js"></script>
-        <script src="js/twitterfetcher.min.js"></script>
-        <script src="js/spectragram.min.js"></script>
-        <script src="js/smooth-scroll.min.js"></script>
-        <script src="js/scripts.js"></script>
-    </body>
+            </div>
+        </footer>
+    </div>
+    <!-- ================================================== -->
+    <!-- Placed js files at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js "></script> -->
+    <script type="text/javascript" src="js/plugins.min.js"></script>
+    <script type="text/javascript" src="js/jquery.smoothState.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyAE_JprYsi2sHzUcl8u1DbcUgQnDveJWs4"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>
