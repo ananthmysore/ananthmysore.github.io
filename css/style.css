@@ -587,6 +587,9 @@ header {
 
 .logo {
     width: 145px;
+    transform: translateX(-50%);
+ left: 50%;
+ position: absolute;
 }
 
 .main-nav {}
@@ -9412,3 +9415,15 @@ a.rose_quartz_color:hover {
 .scheme_color_norway .top_header {
 background: #29363b;
  }
+ /*#navbar-primary .navbar-nav {
+   width: 100%;
+   text-align: center;
+ }
+ #navbar-primary .navbar-nav > li {
+   display: inline-block;
+   float: none;
+ }
+ #navbar-primary .navbar-nav > li > a {
+   padding-left: 30px;
+   padding-right: 30px;
+ }*/
