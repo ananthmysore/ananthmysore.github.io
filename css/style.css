@@ -212,8 +212,8 @@ img {
 }
 
 .full_wrapper {
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
 .box_layout_wrapper {
@@ -604,9 +604,11 @@ header {
 .logo,
 .main-nav,
 .searbar {
-    display: table-cell;
+    display: flex;
     vertical-align: middle;
-    position: relative;
+    /*position: relative;*/
+}
+.main-nav {
 }
 
 
