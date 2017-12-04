@@ -9068,9 +9068,10 @@ Extra CSS */
     background-position: center center;
 }
 .single_product_page_header_bg {
-    background-image: url(../images/home11/28.jpg);
+    background-image: url(../images/home/30.jpg);
     background-color: #000;
     background-size: cover;
+    max-height: 10vh !important;
     background-position: center center;
 }
 .bg_cut_top_left_to_right {
@@ -9429,3 +9430,6 @@ background: #29363b;
    padding-left: 30px;
    padding-right: 30px;
  }*/
+.border-bot {
+    box-shadow: 1px 1px 3px #cbb198
+}
